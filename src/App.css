@@ -1,0 +1,87 @@
+html,body,#root {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#contents {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navigation-desc {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#navigation {
+  height: 25%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+#job-desc {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#title {
+  font-size: 30px;
+  margin : 0;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size : 17px;
+  background-color: #a6a6a6;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#date {
+  color: #a6a6a6;
+}
+
+#name-1,#name-2,#name-3 {
+  width: 120px;
+  height: 30px;
+  background: transparent;
+  border : 1px solid;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  border-left: white;
+}
+
+#name-1:hover,#name-2:hover,#name-3:hover {
+  color: turquoise;
+  border-left: turquoise;
+}
+
+#desc {
+  height: 15%;
+}
