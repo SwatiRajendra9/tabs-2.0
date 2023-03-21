@@ -1,6 +1,8 @@
 html,body,#root {
   height: 100%;
   width: 100%;
+  background-color: #E8F3D6;
+  
 }
 
 #main {
@@ -15,6 +17,8 @@ html,body,#root {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5%;
+ 
 }
 
 #navigation-desc {
@@ -43,11 +47,14 @@ html,body,#root {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-right: 10%;
+  
 }
 
 #title {
   font-size: 30px;
   margin : 0;
+  font-weight: 500;
 }
 
 #name {
@@ -71,17 +78,21 @@ html,body,#root {
   height: 30px;
   background: transparent;
   border : 1px solid;
-  border-bottom: none;
-  border-top: none;
-  border-right: none;
-  border-left: white;
+  border:none;
+  border-radius: 10px;
+  font-weight:800;
 }
 
 #name-1:hover,#name-2:hover,#name-3:hover {
-  color: turquoise;
-  border-left: turquoise;
+  background-color: #245953;
+  color:white;
+  
+  
 }
 
 #desc {
   height: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #245953;
+  letter-spacing: 1px;
 }
