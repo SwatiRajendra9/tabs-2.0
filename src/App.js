@@ -27,7 +27,6 @@ class mainComponent extends React.Component {
       this.state.gotResponse ?
       <div id='main'>
             <div id='contents'>
-              <h1></h1>
                 <div id='navigation-desc'>
                   <div id='navigation'>
                     <button id='name-1' onClick={this.clickedOnTommy} >TOMMY</button>
