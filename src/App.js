@@ -1,6 +1,6 @@
 import React from "react";
 import Tabs from './Tabs.js';
-import App from './App.css';
+import './App.css';
 import axios from "axios";
 
 class mainComponent extends React.Component {
